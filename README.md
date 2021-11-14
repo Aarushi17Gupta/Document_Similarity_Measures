@@ -12,3 +12,4 @@ Cosine similarity measures the cosine of the angle between two vectors. Here vec
 ### 3. Jaccard Similarity
 Jaccard Similarity is the ratio of common words to total unique words or we can say the intersection of words to the union of words in both the documents.Its scores ranges between 0-1. 1 represents the higher similarity while 0 represents the no similarity. It considers only the unique set of words for each sentence and does not give importance to the duplication of words.
 
+###### These measures are not all the same thing and they yield quite different results. Yet they are all types of distances, ways of describing the relationship between two data samples.
