@@ -13,7 +13,8 @@ FuzzyWuzzy is a library of Python which is used for string matching.One of the e
 
 ### 2. Cosine similarity 
 Cosine similarity measures the cosine of the angle between two vectors. Here vectors can be bag of words, TF-IDF, or Doc2Vec. Cosine similarity is best suitable for where repeated words are more important and can work on any size of the document. Its value ranges from 0 to 90 degrees, where 0 degree means the two documents are exactly identical and 90 degree means that the two documents are very  different. 
-####### TF-IDF Vectorizer- Term frequency-inverse document frequency (TF-IDF) vectorization is a simple and convenient way to characterize bodies of text. Due to its simplicity, this method scales better than some other topic modeling techniques when dealing with large datasets.
+
+###### TF-IDF Vectorizer- Term frequency-inverse document frequency (TF-IDF) vectorization is a simple and convenient way to characterize bodies of text. Due to its simplicity, this method scales better than some other topic modeling techniques when dealing with large datasets.
 Term frequency refers to how often a term (or token) occurs within a given document. Since the documents are quite small, we don't observe a term that appears more than once.
 
 ### 3. Jaccard Similarity
